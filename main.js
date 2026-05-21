@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'dashboard': 'Dashboard',
     'search': 'Case Search',
     'entry': 'Data Entry (MLEF)',
-    'scanning': 'AI Scanning',
+    'scanning': 'Form Scanning',
     'court': 'Court Tracking',
     'dispatched': 'Dispatched Reports'
   }
@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', () => {
     scanFormType.parentElement.classList.add('hidden'); // Hide form type selector
     scanProcessing.classList.remove('hidden');
     scanProgressBar.style.width = '0%';
-    scanProgressText.textContent = 'AI Core is analyzing document layout grid...';
+    scanProgressText.textContent = 'Analyzing document layout grid...';
     
     // Simulate progress
     let progress = 0;
